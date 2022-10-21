@@ -1,0 +1,95 @@
+.version {
+  background-color: $section-color;
+
+  &__container {
+    margin-top: 160px;
+  }
+
+  &__top {
+    margin: 90px;
+  }
+
+  &__top-box {
+    background-color: #FDD6BA;
+    max-width: 760px;
+    height: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__top-item {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    display: inline-block;
+
+  }
+
+  &__main-item {
+    width: 285px;
+    margin-bottom: 100px;
+  }
+
+  &__main-box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__main-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    margin: 40px 0;
+  }
+
+  &__main-text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-bottom: 20px;
+
+  }
+
+ &__main-title::before {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 38px;
+
+  }
+
+  &__main-title:nth-child(1)::before {
+    content: "01";
+  }
+  &__main-title:nth-child(2)::before {
+    content: "02";
+  }
+  &__main-title:nth-child(3)::before {
+    content: "03";
+  }
+
+ 
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
