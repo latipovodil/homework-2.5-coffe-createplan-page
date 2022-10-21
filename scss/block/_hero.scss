@@ -1,0 +1,52 @@
+.hero {
+  margin-top: 115px;
+
+
+  &__container {
+    background-image: url("../../img/hero-bgimage.jpg");
+    background-repeat: no-repeat;
+    // background-position-x: 60%;
+    border-radius: 10px;
+  }
+
+  &__all-text {
+    max-width: 445px;
+    margin-top: 100px;
+    margin-left: 85px;
+    margin-bottom: 137px;
+
+
+  }
+
+  &__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+  }
+
+  &__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 32px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
