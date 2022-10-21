@@ -224,4 +224,81 @@ img {
 }
 .version__main-title:nth-child(3)::before {
   content: "03";
+}
+.drink__page-left-items {
+  padding: 24px 0;
+  border-bottom: 1px solid #83888F;
+}
+.drink__page-left {
+  padding-left: 78px;
+  width: 295px;
+}
+.drink__number1 {
+  color: #0E8784;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 20px;
+}
+.drink__number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-right: 20px;
+}
+.drink__page-left-link1 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+.drink__page-left-link {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+.drink__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.drink__title-lable::before {
+  content: "/ed35";
+  background: #0E8784;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.drink__checkboxtitle::after {
+  content: "";
+  background-image: url("../../img/icon1.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 14px;
+  display: inline-block;
+  margin-left: 78px;
+}
+.drink__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.drink__checkboxtitle {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
 }/*# sourceMappingURL=main.css.map */
