@@ -122,7 +122,7 @@ img {
   margin-top: 115px;
 }
 .hero__container {
-  background-image: url("../../img/hero-bgimage.jpg");
+  background-image: url("../img/hero-bgimage.jpg");
   background-repeat: no-repeat;
   border-radius: 10px;
 }
