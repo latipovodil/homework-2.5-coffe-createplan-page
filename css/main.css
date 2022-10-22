@@ -270,35 +270,97 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
-.drink__title-lable::before {
-  content: "/ed35";
-  background: #0E8784;
-  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
-          transform: matrix(1, 0, 0, -1, 0, 0);
-}
-.drink__checkboxtitle::after {
-  content: "";
-  background-image: url("../../img/icon1.svg");
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 14px;
+.drink__form-label {
+  width: 228px;
   display: inline-block;
-  margin-left: 78px;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
 }
-.drink__main {
+.drink__form-label5 {
+  width: 228px;
+  display: inline-block;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
+}
+.drink__form-label2 {
+  width: 228px;
+  display: inline-block;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
+}
+.drink__form-label3 {
+  width: 228px;
+  display: inline-block;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
+}
+.drink__form-label4 {
+  width: 228px;
+  display: inline-block;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
+}
+.drink__form-small-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 28px;
+}
+.drink__page-right-items {
+  margin-top: 88px;
+}
+.drink__page-right-box-one {
+  margin-top: -88px;
+}
+.drink__form-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.drink__form-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.drink__checkboxtitle {
+.drink__page-right-h2 {
   font-family: "Fraunces";
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
   color: #83888F;
+  margin-top: 88px;
+}
+.drink__page-right-h2::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../../img/icon1.svg");
+  margin-left: 78px;
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+}
+.drink__page-right-box {
+  margin-left: 125px;
+}
+.drink__form-input:checked + .drink__form-label {
+  background-color: #0E8784;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

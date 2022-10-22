@@ -53,41 +53,114 @@
     display: flex;
   }
 
-  &__title-lable::before {
-    content: "/ed35";
-    background: #0E8784;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-  }
-
-
-  &__checkboxtitle::after {
-    content: "";
-    background-image: url('../../img/icon1.svg');
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 14px;
+  &__form-label {
+    width: 228px;
     display: inline-block;
-    margin-left: 78px;
-
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
   }
 
-  &__main {
+  &__form-label5 {
+    width: 228px;
+    display: inline-block;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
+  }
+
+
+  
+  &__form-label2 {
+    width: 228px;
+    display: inline-block;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
+  }
+
+  
+  &__form-label3 {
+    width: 228px;
+    display: inline-block;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
+  }
+  
+  &__form-label4 {
+    width: 228px;
+    display: inline-block;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
+  }
+  &__form-small-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 28px;
+  }
+
+  &__page-right-items{
+    margin-top: 88px;
+  }
+
+  &__page-right-box-one {
+    margin-top: -88px;
+  }
+
+  &__form-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+
+  &__form-box {
     display: flex;
-    margin: 0 auto;
-    flex-direction: column;
+    justify-content: space-between;
   }
 
-  &__checkboxtitle {
+  &__page-right-h2{
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     color: #83888F;
+    margin-top: 88px;
+  }
+  &__page-right-h2::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url('../../img/icon1.svg');
+    margin-left: 78px;
+    display:inline-block;
+    width: 20px;
+    height: 21px;
   }
 
-  // &__title-input:checked + &__title-label{
-    
-  // }
+
+  &__page-right-box {
+    margin-left: 125px;
+  }
+
+  &__form-input:checked + &__form-label{
+    background-color: #0E8784;
+    color: #fff;
+  }
+
+
+
 
 
 }
